@@ -5,6 +5,7 @@ function Contato () {
   return (
     <>
     <Header />
+    Contatos
     
     </>
   )
