@@ -1,22 +1,27 @@
-<h1 align="center">:file_cabinet: Exemplo de README.md</h1>
+<h1 align="center">:file_cabinet: README.md</h1>
 
 ## :memo: Descrição
-Escreva uma descrição do seu projeto
+Projeto Voltado para aprendizado. Praticando com ReactJs Typescript etc...
 
 ## :books: Funcionalidades
-* <b>Funcionalidade 1</b>: O que essa funcionalidade faz?
+* <b>...</b>: ...
 
 ## :wrench: Tecnologias utilizadas
-* Tecnologia;
+* Tailwind;
+* Typescript;
+* ReactJs;
+* React Router;
+* Vite;
 
 ## :rocket: Rodando o projeto
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
 ```
-<linha de comando>
+ npm run dev 
 ```
 
 ## :soon: Implementação futura
-* O que será implementado na próxima sprint?
+* Tela de fotos;
+* Contato;
 
 ## :handshake: Colaboradores
 <table>
@@ -33,3 +38,5 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 </table>
 
 ## :dart: Status do projeto
+
+* Em Andamento...
