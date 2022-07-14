@@ -1,14 +1,19 @@
 import Header from "../components/Header";
 
 
+
 function Historia() {
+  const base = "bg-gray-100 mx-auto max-w-6xl bg-white py-20 px-12 lg:px-24 shadow-xl mb-24";
+  const sessao = "bg-gray-100 flex bg-local";
+
   return (
 
     <>
       <Header />
-      <div >
+      <section className={sessao}>
+      <div className={base}>
         <img className="float-right .object-scale-down h-60 m-8" src="https://i0.wp.com/arawaza.com.br//wp-content/uploads/2020/10/bodhidharma-primer-ancestro-zen-pintura-tsukioka-yoshitoshi-arawaza-karateguis-uniformes-venezuela.jpg" />
-          <h1 className="m-8 ml-2 text-2xl font-bold bg-sky-500 text-white ">Biografia de Buda</h1>
+          <h1 className="m-8 ml-2 text-2xl font-bold bg-sky-500 text-white rounded-full pl-2  ">Biografia de Buda</h1>
         <p className='m-8  text-gray-500 text-justify indent-8'>
           Buda, que em hindu quer dizer “Iluminado”, foi o nome dado a Siddhartha Gautama, líder religioso que viveu na Índia, cuja bondade e sabedoria lhe valeram esse título. É considerado pelos budistas o “Supremo Buda”, o fundador do budismo.
 
@@ -45,6 +50,7 @@ function Historia() {
           Os cinco místicos decepcionados, abandonaram Gautama, que durante os seis anos seguintes passou o seu tempo meditando em total solidão.
         </p>
       </div>
+      </section>
     </>
 
   )
